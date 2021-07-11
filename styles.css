@@ -1,28 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #ee6264;
+    background-color: #C4A16A;
 };
 
 
-header{
-    padding: 500px;
-}
+nav{
+    padding-bottom: 50px;
+};
 
+.greetings{
+    position: relative;
+};
 
-#hello {
-    color: rgba(255, 255, 255, 0.521);
+#hello{
+    color: rgba(255, 255, 255, 0.171);
     z-index: -1;
-    font-size: 3000%;
-    font-family: cursive;
-    display: flex;
-    justify-content: center;
-    font-family: https://fonts.google.com/specimen/Caveat?preview.text=HELLO&preview.text_type=custom&vfonly=true#license;
-};
-
-
-.overlap{
-    z-index: 1;
-    display: flex;
-    justify-content: center;
+    font-family: 'Caveat';
+    font-size: 100%;
 };
