@@ -6,18 +6,23 @@
 
 
 nav{
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
 };
 
 
-.greetings{
+.greeting{
     position: relative;
 };
 
 
 #hello{
     color: rgba(255, 255, 255, 0.171);
-    z-index: 2;
+    z-index: 1;
     font-family: 'Caveat';
     font-size: 500px;
 };
+
+.intro{
+    z-index: 1;
+}
