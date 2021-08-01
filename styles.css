@@ -9,13 +9,15 @@ nav{
     padding-bottom: 50px;
 };
 
+
 .greetings{
     position: relative;
 };
 
+
 #hello{
     color: rgba(255, 255, 255, 0.171);
-    z-index: -1;
+    z-index: 2;
     font-family: 'Caveat';
-    font-size: 100%;
+    font-size: 500px;
 };
